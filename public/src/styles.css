@@ -1,0 +1,40 @@
+/* Base page styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 1rem;
+}
+
+/* Card container styling */
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+/* Card image styling */
+/* Ensures consistent image size and proper scaling */
+.card img {
+    width: 120px;
+    object-fit: cover;
+}
+
+/* Card content area styling */
+/* Add spacing around text */
+.card .info {
+    padding: 0.5rem 1rem;
+}
+
+/* Card title styling */
+/* Add spacing below */
+.card .info h3 {
+    margin: 0 0 0.5rem;
+}
+
+/* Link styling */
+/* Blue links, no underline */
+a {
+    color: blue;
+    text-decoration: none;
+}
+  
